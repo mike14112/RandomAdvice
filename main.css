@@ -46,7 +46,8 @@ body{
 }
 
 .dice:hover{
-    box-shadow:10px 10px 100px 6px #42CC87;
+    box-shadow:10px 10px 100px 20px #42CC87;
+    transform: 0.15;
 }
 
 
