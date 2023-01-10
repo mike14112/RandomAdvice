@@ -40,12 +40,13 @@ body{
 .dice{
    border:none;
    background-color:#42CC87;
-   padding: 10px;
+   padding: 15px;
    cursor: pointer;
+   border-radius:25%;
 }
 
-.dice:focus{
-    box-shadow:10px 10px 100px 6px #42CC87
+.dice:hover{
+    box-shadow:10px 10px 100px 6px #42CC87;
 }
 
 
