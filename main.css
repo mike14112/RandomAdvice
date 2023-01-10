@@ -2,6 +2,7 @@ body{
     background-color: #1A1E28;
     overflow: hidden;
      font-size: 28px;
+     width: 100%;
 }
 
 .text-id{
@@ -49,3 +50,12 @@ body{
 
 
 
+@media screen and (max-width:800px) {
+    .show-container{
+        width: 380px;
+        height: 624px;
+    }
+    .img-pattern{
+        width: 100%;
+    }
+}
