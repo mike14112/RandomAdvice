@@ -1,6 +1,9 @@
 'use strict';
 let data1 = {};
+let  diceImg =  document.querySelector('.diceRandom');
  
+
+
 let  get = function() { fetch('https://api.adviceslip.com/advice') 
 .then((response) => {
   return response.json();
@@ -17,6 +20,6 @@ const btn  = document.querySelector('.dice').addEventListener('click', ()=> {
   get()
  
   let  diceRandom =  Math.trunc(Math.random() * 5 ) + 1;
-  let  diceImg =  document.querySelector('.diceRandom')
-  diceImg.src = `dice${diceRandom}.png`
-  });
+  diceImg.src = `images/dice${diceRandom}.png`;
+
+});
