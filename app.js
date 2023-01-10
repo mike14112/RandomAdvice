@@ -18,5 +18,5 @@ const btn  = document.querySelector('.dice').addEventListener('click', ()=> {
  
   let  diceRandom =  Math.trunc(Math.random() * 5 ) + 1;
   let  diceImg =  document.querySelector('.diceRandom')
-  diceImg.src = `http://127.0.0.1:5500/images/dice${diceRandom}.png`
+  diceImg.src = `dice${diceRandom}.png`
   });
